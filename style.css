@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+#container1 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(203, 203, 203, 0.9);
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 80px;
+  width: 100%;
+  box-shadow: rgba(2, 2, 2, 4.35) 1px 2px 18px;
+  position: fixed;
+  backdrop-filter: blur(7px);
+  z-index: 999;
+}
+#container1:hover {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.9);
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 80px;
+  box-shadow: rgba(2, 2, 2, 4.35) 3px 4px 15px;
+  position: fixed;
+  backdrop-filter: blur(7px);
+  z-index: 999;
+}
+
+#judul {
+  margin-left: 25px;
+  color: rgb(252, 253, 255);
+}
+
+#whatsapp {
+  background-color: black;
+  background-image: url("whatsapp.png");
+  background-size: cover;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  left: 1710px;
+  top: 770px;
+  z-index: 4;
+}
+
+#aJudul {
+  color: rgb(0, 96, 175);
+  text-decoration: none;
+}
+
+#aJudul:hover {
+  color: rgb(0, 96, 175);
+  text-decoration: none;
+  text-shadow: 3px 3px 7px black;
+}
+
+.list {
+  flex-direction: row;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  width: 370px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+#home {
+  background-color: rgb(146, 173, 231);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(2, 2, 2, 4.35) 2px 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#home:hover {
+  box-shadow: rgba(2, 2, 2, 4.35) 5px 8px 15px;
+  background-color: rgb(154, 188, 218);
+}
+
+#aboutMe {
+  background-color: rgb(146, 173, 231);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(2, 2, 2, 4.35) 2px 5px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#aboutMe:hover {
+  box-shadow: rgba(2, 2, 2, 4.35) 5px 8px 15px;
+  background-color: rgb(154, 188, 218);
+}
+
+#contactMe {
+  background-color: rgb(146, 173, 231);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: rgba(2, 2, 2, 4.35) 2px 5px 15px;
+  margin-right: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+#contactMe:hover {
+  box-shadow: rgba(2, 2, 2, 4.35) 5px 8px 15px;
+  background-color: rgb(154, 188, 218);
+}
+
+#menuIMG {
+  font-weight: 800;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgb(187, 190, 192);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+/* .box{
+    
+} */
+
+#container2 {
+  display: flex;
+  height: 700px;
+  /* background-color: rgb(203, 203, 203); */
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-image: url("bandara.png");
+  /* background-repeat: no-repeat; */
+  /* background-size: auto; */
+}
+
+.container2Next {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#container2Next-box {
+  background-color: rgb(146, 173, 231);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  color: rgb(218, 210, 201);
+  font-size: 18px;
+  margin-bottom: 200px;
+  border-radius: 20px;
+  /* box-shadow: rgba(2, 2, 2, 4.35) 5px 8px 16px; */
+  width: 300px;
+}
+
+.a {
+  color: rgb(218, 210, 201);
+}
+
+#container2Next-box:hover {
+  box-shadow: rgba(2, 2, 2, 4.35) 5px 8px 3px;
+  background-color: rgb(38, 118, 223);
+}
+
+#container3 {
+  background-color: rgb(81, 78, 78);
+  padding-bottom: 200px;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+
+#container3Next {
+  position: relative;
+  background-color: rgb(242, 234, 234);
+  /* padding: 300px; */
+  width: 600px;
+  height: 400px;
+  z-index: 2;
+  bottom: 200px;
+  justify-content: center;
+  box-shadow: rgba(2, 2, 2, 4.35) 5px 8px 16px;
+  border-radius: 30px;
+}
+
+#container3NextBox1 {
+  background-image: url("fotoDiri.png");
+  background-size: cover;
+  box-shadow: 0 0 0 3px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  bottom: 330px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-left: 225px;
+}
+
+#container3NextBox2 {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  z-index: 2;
+  margin-top: 120px;
+}
+
+#box1 {
+  font-size: 70px;
+}
+
+#box2 {
+  color: rgb(253, 105, 51);
+  font-weight: 800;
+}
+
+#box3 {
+  font-size: 30px;
+}
+
+#box4 {
+  margin-top: 30px;
+}
+
+#container3Next1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#container3Next1Box1 {
+  font-size: 80px;
+  bottom: 100px;
+  position: relative;
+  color: orangered;
+  font-weight: bold;
+}
+
+#container3Next1Box2 {
+  width: 600px;
+  justify-content: center;
+  /* background-color: #fff; */
+  left: 95px;
+  color: white;
+  position: relative;
+  font-size: 20px;
+  bottom: 50px;
+}
+
+#box4-2 {
+  color: white;
+}
+
+#container3Next2 {
+  display: flex;
+  justify-content: center;
+}
+
+#container3Next2Box1 {
+  list-style: none;
+  display: flex;
+  /* background-color: aqua; */
+  width: 800px;
+  height: 100px;
+  margin-top: 150px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#boxx1 {
+  background-color: #ffeeee;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  color: rgb(200, 48, 86);
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#boxx2 {
+  background-color: #ffeeee;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  color: rgb(200, 48, 86);
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#boxx3 {
+  background-color: #ffeeee;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  color: rgb(200, 48, 86);
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#boxx4 {
+  background-color: #ffeeee;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  color: rgb(200, 48, 86);
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#container4Next1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(81, 78, 78);
+  padding-bottom: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#container4Next1Box1 {
+  color: white;
+  position: relative;
+  font-size: 60px;
+  bottom: 60px;
+  justify-content: center;
+}
+
+#container4Next1Box2 {
+  color: white;
+  width: 600px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+#container4Next1Box3 {
+  /* background-color: aqua; */
+  width: 1000px;
+  height: 100px;
+  top: 300px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+#boxxx1 {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+#boxxx1-1 {
+  background-image: url("kota.png");
+  background-size: cover;
+  height: 65%;
+  width: 220px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#boxxx1-2 {
+  height: 35%;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+#boxxx1-2 > p {
+  font-size: 20px;
+  color: grey;
+  justify-content: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#boxxx2 {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+#boxxx2-1 {
+  background-image: url("kota.png");
+  background-size: cover;
+  height: 65%;
+  width: 220px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#boxxx2-2 {
+  height: 35%;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+#boxxx2-2 > p {
+  font-size: 20px;
+  color: grey;
+  justify-content: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#boxxx3 {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+#boxxx3-1 {
+  background-image: url("kota.png");
+  background-size: cover;
+  height: 65%;
+  width: 220px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#boxxx3-2 {
+  height: 35%;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+#boxxx3-2 > p {
+  font-size: 20px;
+  color: grey;
+  justify-content: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#boxxx4 {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+#boxxx4-1 {
+  background-image: url("kota.png");
+  background-size: cover;
+  height: 65%;
+  width: 220px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#boxxx4-2 {
+  height: 35%;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+#boxxx4-2 > p {
+  font-size: 20px;
+  color: grey;
+  justify-content: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+#container5Next1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(81, 78, 78);
+  padding-bottom: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#container5Next1Box1{
+    color: white;
+  position: relative;
+  font-size: 60px;
+  bottom: 60px;
+  justify-content: center;
+}
+
